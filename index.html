@@ -28,30 +28,12 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
       <div id="time-display"></div>
-      <!-- <img src="./Assets/headerbanner.jpeg"/> -->
+   
     </header>
     <div id="time-display"></div>
     <div class="container-lg px-5">
-      <!-- Use class for "past", "present", and "future" to apply styles to the
-        time-block divs accordingly. The javascript will need to do this by
-        adding/removing these classes on each div by comparing the hour in the
-        id to the current hour. The html provided below is meant to be an example
-        demonstrating how the css provided can be leveraged to create the
-        desired layout and colors. The html below should be removed or updated
-        in the finished product. Remember to delete this comment once the
-        code is implemented.
-        -->
 
-      <!-- Example of a past time block. The "past" class adds a gray background color. -->
       
-      <!-- <div class="container-lg px-5">
-        <div id="hour-9" class="row time-block">
-          <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
-          <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-          <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-            <i class="fas fa-save" aria-hidden="true"></i>
-          </button>
-        </div> -->
 
       <div id="hr-8" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">0800</div>
@@ -61,7 +43,6 @@
         </button>
       </div>
 
-      <!-- Example of a a present time block. The "present" class adds a red background color. -->
       <div id="hr-9" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">0900</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -70,7 +51,7 @@
         </button>
       </div>
 
-      <!-- Example of a future time block. The "future" class adds a green background color. -->
+
       <div id="hr-10" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">1000</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -87,7 +68,6 @@
         </button>
       </div>
 
-      <!-- Example of a a present time block. The "present" class adds a red background color. -->
       <div id="hr-12" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">1200</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -96,7 +76,7 @@
         </button>
       </div>
 
-      <!-- Example of a future time block. The "future" class adds a green background color. -->
+
       <div id="hr-13" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">1300</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -113,7 +93,7 @@
         </button>
       </div>
 
-      <!-- Example of a a present time block. The "present" class adds a red background color. -->
+
       <div id="hr-15" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">1500</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -122,7 +102,6 @@
         </button>
       </div>
 
-      <!-- Example of a future time block. The "future" class adds a green background color. -->
       <div id="hr-16" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">1600</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -139,7 +118,6 @@
         </button>
       </div>
 
-      <!-- Example of a a present time block. The "present" class adds a red background color. -->
       <div id="hr-18" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">1800</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -148,7 +126,6 @@
         </button>
       </div>
 
-      <!-- Example of a future time block. The "future" class adds a green background color. -->
       <div id="hr-19" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">1900</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -165,7 +142,6 @@
         </button>
       </div>
 
-      <!-- Example of a a present time block. The "present" class adds a red background color. -->
       <div id="hr-21" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">2100</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -174,7 +150,6 @@
         </button>
       </div>
 
-      <!-- Example of a future time block. The "future" class adds a green background color. -->
       <div id="hr-22" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">2200</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -191,85 +166,7 @@
         </button>
       </div>
 
-    
-      <!-- <div id="hr-0" class="row time-block">
-        <div class="col-2 col-md-1 hour text-center py-3">0000</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-          <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-      </div>
-
-      
-      <div id="hr-1" class="row time-block">
-        <div class="col-2 col-md-1 hour text-center py-3">0100</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-          <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-      </div>    
-      
-      <div id="hr-2" class="row time-block">
-        <div class="col-2 col-md-1 hour text-center py-3">0200</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-          <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-      </div>
-
-      
-      <div id="hr-3" class="row time-block">
-        <div class="col-2 col-md-1 hour text-center py-3">0300</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-          <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-      </div>
-
-      
-      <div id="hr-4" class="row time-block">
-        <div class="col-2 col-md-1 hour text-center py-3">0400</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-          <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-      </div>    
-      
-      <div id="hr-5" class="row time-block">
-        <div class="col-2 col-md-1 hour text-center py-3">0500</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-          <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-      </div>
-
-      
-      <div id="hr-6" class="row time-block">
-        <div class="col-2 col-md-1 hour text-center py-3">0600</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-          <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-      </div>
-
-      
-      <div id="hr-7" class="row time-block">
-        <div class="col-2 col-md-1 hour text-center py-3">0700</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-          <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-      </div> -->
-<!-- 
-      <div class="card-footer">
-        <button
-          class="btn btn-block btn-custom w-100"
-          data-bs-toggle="modal"
-          data-bs-target="#new-project-modal"
-        >
-          Add Project
-        </button>
-      </div> -->
+ 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script
@@ -277,10 +174,6 @@
       integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="path/to/dayjs/dayjs.min.js"></script> -->
-    <!-- <script>
-      dayjs().format()
-    </script> -->
     <script src="./Develop/script.js"></script>
   </body>
 </html>
