@@ -1,12 +1,17 @@
+# Welcome to the calendar!
 
+This site functions as a day calendar. It contains a header that displays the current date and time in 24hr format. There are blocks of time that will display a different background color depending on whether it is the current time, past time, or future. The user can enter appointments into the display blocks and click a save button to save it in local storage. After saving in local storage if the page is refreshed the appointments will remain.
 
 # Deployed Site:
 
 https://itlleat.github.io/lovely-interactive-planning-calendar-/
 
+
+
+
 # Screenshot: 
 
-
+<img width="1116" alt="Screen Shot 2023-02-01 at 5 12 43 PM" src="https://user-images.githubusercontent.com/118778670/216199768-eb98f8b9-8b1b-40ad-bb16-e0656c67c36b.png">
 
 
 
