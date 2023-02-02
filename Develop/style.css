@@ -1,3 +1,7 @@
+header {
+  background-color: #b5a7ff;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -8,7 +12,8 @@ textarea {
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border-left: 4px solid rgb(29, 163, 136);
+  border-radius: 6px;
   padding: 10px;
 }
 
@@ -31,17 +36,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #b5a7ff;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #fb0000;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #00ff00;
   color: white;
 }
 
